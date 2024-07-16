@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className='w-full h-screen text-white'
-      style={{backgroundColor:color}}>
+        style={{backgroundColor:color}}>
         <div className='fixed bottom-12 insert-x-0 px-2 flex flex-wrap justify-center align-middle w-full bg-red '>
           <div className='flex flex-wrap justify-center gap-3 shadow-xl bg-black rounded-xl px-3 py-2'>
             <button onClick={()=>setColor('red')}
